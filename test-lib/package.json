@@ -1,0 +1,28 @@
+{
+  "name": "test-lib",
+  "version": "1.0.0",
+  "description": "A TypeScript npm library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DIO0550",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIO0550/my-typescript-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DIO0550/my-typescript-library/issues"
+  },
+  "homepage": "https://github.com/DIO0550/my-typescript-library#readme",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
